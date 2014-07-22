@@ -2,7 +2,7 @@
 
 $:.unshift File.expand_path("../lib", __FILE__)
 
-require "t13n/version"
+require 't13n/version'
 
 Gem::Specification.new do |s|
   s.name = "t13n"
