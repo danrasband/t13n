@@ -1,10 +1,13 @@
 class T13n
-  def convert(writing_system_in, writing_system_out)
+  def initialize(input_type, output_type)
+
   end
 
+  def convert(utf8_str)
 
+  end
 end
 
 require 't13n/version'
 require 't13n/ucs'
-require 't13n/writing_systems'
+require 't13n/converters'

@@ -3,4 +3,4 @@ class T13n
   end
 end
 
-require 'writing_systems/hangul'
+require_relative 'converters/hangul'
